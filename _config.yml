@@ -1,0 +1,76 @@
+title: "enferadimj"
+subtitle: "Medical Physics Student | Research Notes | Scientific Writing"
+name: "enferadimj"
+description: "A personal academic website for medical physics notes, article summaries, book summaries, research updates, and scientific blogging."
+
+url: "https://enferadimj.github.io"
+baseurl: ""
+
+repository: "enferadimj/enferadimj.github.io"
+
+remote_theme: "mmistakes/minimal-mistakes"
+
+minimal_mistakes_skin: "air"
+
+locale: "en-US"
+timezone: "Asia/Tehran"
+
+search: true
+show_excerpts: true
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+author:
+  name: "enferadimj"
+  bio: "Medical physics student interested in radiation physics, imaging, dosimetry, clinical research, and scientific writing."
+  location: "Iran"
+  email: "Enferadiiimj@gmail.com"
+  links:
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/"
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar"
+      url: "https://scholar.google.com/"
+    - label: "ResearchGate"
+      icon: "fab fa-fw fa-researchgate"
+      url: "https://www.researchgate.net/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/enferadimj"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/enferadimj"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
